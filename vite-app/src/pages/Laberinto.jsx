@@ -65,7 +65,7 @@ const Laberinto = () => {
 
   console.log("what");
 
-  var conn = new WebSocket('wss://aiadeploy.onrender.com');
+  var conn = new WebSocket('wss://alejoalcaraz.github.io/');
       conn.onopen = function(e) {
           console.log("Connection established!");
       };
